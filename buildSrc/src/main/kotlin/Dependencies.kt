@@ -48,3 +48,7 @@ object TestLibraries {
     const val testRunner = "androidx.test:runner:${Versions.testRunner}"
     const val espresso   = "androidx.test.espresso:espresso-core:${Versions.espresso}"
 }
+
+object Modules{
+    val genericFeatureModule = ":featuremodule"
+}
